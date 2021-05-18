@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: mall-search
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.163.131:8848
+  thymeleaf:
+    cache: false
+server:
+  port: 12000
+logging:
+  level:
+    com.zsy: debug
